@@ -24,7 +24,10 @@ nav li a {
   color: black;
 }
 
-td, tr {
-  border: 1px solid black;
+tr:nth-child(even) {
+  background: #ccc;
+}
+
+td {
   padding: 5px;
 }
