@@ -1,0 +1,7 @@
+<h1>Todo List</h1>
+
+<ul>
+  <% @todos.each do |todo| %>
+    <li><%= todo.id %> - <%= todo.name %> - <%= todo.description %></li>
+  <% end %>
+</ul>
